@@ -32,7 +32,7 @@ def plot_scatter_plot(penguins_df: pd.DataFrame):
 def plot_bar_chart(sales_df: pd.DataFrame):
     """Create and display a bar chart for the sales dataset."""
     fig, ax = plt.subplots(figsize=(8, 5))
-    sns.barplot(x="Category", y="Sales", data=sales_df, ax=ax)
+    sns.barplot(x="Category", y="Sales", data=sales_df, ax=ax, palette='viridis')
     ax.set_title("Chart 2. Sales by Category")
     return fig
 
