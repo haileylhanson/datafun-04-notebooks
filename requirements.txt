@@ -27,7 +27,7 @@
 # py -m venv .venv
 
 ### On Mac/Linux, Use zsh or bash (or PowerShell) - don't include the #:
-# python3 -m venv .venv
+#python3 -m venv .venv
 
 ### If VS Code asks: We noticed a new environment has been created. 
 # Do you want to select it for the workspace folder?
@@ -44,8 +44,8 @@
 ### On Windows, Use PowerShell (not cmd) - don't include the #:
 # py -3.11 -m venv .venv
 ### On Mac  - don't include the #:
-# brew install python@3.11
-# python3 -m venv .venv
+#brew install python@3.11
+#python3 -m venv .venv
 ### On Linux/WSL - don't include the #:
 # sudo apt update
 # sudo apt install python3.11 python3.11-venv
@@ -62,7 +62,7 @@
 # .\.venv\Scripts\activate
 
 ### Mac/Linux/WSL Command (don't include the #):
-# source .venv/bin/activate
+#source .venv/bin/activate
 
 # Verify: When active, you can usually see (.venv) in the terminal.
 
@@ -83,8 +83,8 @@
 # py -m pip install --upgrade -r requirements.txt --timeout 100
 
 ### Mac/Linux/WSL Command (don't include the #):
-# python3 -m pip install --upgrade pip setuptools wheel
-# python3 -m pip install --upgrade -r requirements.txt --timeout 100
+#python3 -m pip install --upgrade pip setuptools wheel
+#python3 -m pip install --upgrade -r requirements.txt --timeout 100
 
 # When you identify a new package you want to use, 
 # Just update the list below and re-run the install command. 
